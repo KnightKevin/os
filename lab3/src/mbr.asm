@@ -42,7 +42,8 @@ asm_read_hard_disk:
     mov al,ah
     out dx,al
 
-    xor ax,ax
+    mov ax,cx ; 开始设置 27~24位
+    
     inc dx ; 0x1f5
     out dx,al
 
