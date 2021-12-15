@@ -4,7 +4,7 @@
 LOADER_SECTOR_COUNT equ 5
 ; 加载器起始扇区
 LOADER_START_SECTOR equ 1
-; 加载器被加载的地址
+; 加载器被加载到内存的地址
 LOADER_START_ADDRESS equ 0x7e00
 ; ____________GDT______________
 ; GDT起始位置
