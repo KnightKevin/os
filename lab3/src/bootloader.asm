@@ -18,7 +18,7 @@ output_bootloader_tag:
 
 ; 数据/代码段描述符的高32位基本规律应该是填0x_ _ c _ 9 8 _ _类似的数值，段界限只能最多填20位所以要在平坦模式下访问4GB内容，那就要将粒度设为4kb
 
-; 空描述符
+; 空描述符，因为按照定义要求，GDT的第一个描述符必须是空的
 mov dword [GDT_START_ADDRESS+0x00], 0x00
 mov dword [GDT_START_ADDRESS+0x04], 0x00
 
