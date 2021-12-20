@@ -6,3 +6,4 @@ A fire witout its flame...
 - [x] 编写bootloader代码
 - [x] 初步了解保护模式
 - [x] 通过汇编进入保护模式
+- [ ] 学会c/c++与汇编的混合编程
