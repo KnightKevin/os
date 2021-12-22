@@ -9,3 +9,5 @@ A fire witout its flame...
 - [x] 学会c/c++与汇编的混合编程
 - [x] 搭建c/c++项目目录
 - [ ] 实现内核的加载
+- [ ] 掌握c/c++的手动编译过程
+- [ ] 学习makefile语法
